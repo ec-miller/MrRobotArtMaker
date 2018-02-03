@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily 5-9</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Mr. Robot Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" max='50' value="15">
+        Grid Width:
+        <input type="number" id="inputWidth" name="width" min="1" max='50' value="15">
+        <input type="submit" id='submit'>
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker" value='#00ff00'>
+
+    <h2>Design Canvas</h2>
+    <br />
+    <!-- <br /> -->
+    <table id="pixelCanvas">
+    </table>
+    <br />
+    <button id='randomizer'>Enter the rabbit hole</button>
+    <br />
+    <br />
+    <button id='export'>Save to File</button>
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="designs.js"></script>
+</body>
+</html>
