@@ -4,16 +4,13 @@
 
 Created by Eric Miller for Grow With Google Front End Dev Udacity class
 
-* [Instructions](#instructions)
+* [TryItOut](#TryItOut)
 * [Contributing](#contributing)
 
-## Instructions
+## TryItOut
 
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+You can try this out at https://codepen.io/ec-miller/pen/OQMrQz
 
 ## Contributing
 
-feel free to send requests
-
+Feel free to send requests
